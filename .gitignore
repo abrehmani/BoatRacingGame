@@ -1,0 +1,36 @@
+[Library]
+[Temp]
+[Obj]
+[Build]
+[Builds]
+[Logs]
+[MemoryCaptures]
+# Asset meta files for folders are often not needed in git if they are empty
+# but Unity 6 handles them.
+# Exported meshes
+*.fbx
+*.obj
+# Unity generated
+[Aa]ssetStoreTools*
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
